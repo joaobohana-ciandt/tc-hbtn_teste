@@ -6,7 +6,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SuppressWarnings("Deprecation")
+@SuppressWarnings("deprecation")
 public class PersonTest {
 
     static Person person;

@@ -9,7 +9,7 @@ public class Person {
     private boolean publicServer;
     private float salary;
 
-    @SuppressWarnings("Deprecation")
+    @SuppressWarnings("deprecation")
     public Person(String name, String surname, Date birthDate, boolean anotherCompanyOwner, boolean pensioner, boolean publicServer) {
         this.name = name;
         this.surname = surname;
