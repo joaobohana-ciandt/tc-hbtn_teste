@@ -6,6 +6,7 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SuppressWarnings("unchecked")
 public class PersonTest {
 
     static Person person;
