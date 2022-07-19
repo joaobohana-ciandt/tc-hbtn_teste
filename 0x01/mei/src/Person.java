@@ -1,5 +1,6 @@
 import java.util.Date;
 
+@SuppressWarnings("deprecation")
 public class Person {
     private String name;
     private String surname;
@@ -9,7 +10,7 @@ public class Person {
     private boolean publicServer;
     private float salary;
 
-    @SuppressWarnings("deprecation")
+
     public Person(String name, String surname, Date birthDate, boolean anotherCompanyOwner, boolean pensioner, boolean publicServer) {
         this.name = name;
         this.surname = surname;
