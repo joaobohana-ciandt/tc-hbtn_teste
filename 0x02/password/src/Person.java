@@ -1,5 +1,3 @@
-package src;
-
 public class Person {
     public static boolean checkUser(String user){
         return user.matches("^[a-zA-Z0-9]{8,}$");
